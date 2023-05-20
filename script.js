@@ -21,10 +21,22 @@ console.log(myFirstJob);
 
 */
 
-let javascriptIsFun = true;
-console.log(javascriptIsFun);
+// let javascriptIsFun = true;
+// console.log(javascriptIsFun);
 
-console.log(typeof true);
-console.log(typeof javascriptIsFun);
-console.log(typeof 55);
-console.log(typeof 'hello world!');
+// console.log(typeof true);
+// console.log(typeof javascriptIsFun);
+// console.log(typeof 55);
+// console.log(typeof 'hello world!');
+
+// javascriptIsFun = 'YES!';
+// console.log(typeof javascriptIsFun);
+
+// let year;
+// console.log(year);
+
+// year = 1995;
+// console.log(typeof year);
+
+// console.log(typeof null);
+
