@@ -106,15 +106,28 @@ console.log(myFirstJob);
 // const markHigherBMI = bmiMark > bmiJohn;
 // console.log(markHigherBMI);
 
-const firstName = 'Jonas'
-const job = 'teacher';
-const birthYear = 1991;
-const year = 2023;
+// const firstName = 'Jonas'
+// const job = 'teacher';
+// const birthYear = 1991;
+// const year = 2023;
 
-// Old way
-const jonas = "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!";
-console.log(jonas);
+// // Old way
+// const jonas = "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!";
+// console.log(jonas);
 
-// New way
-const newJonas = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
-console.log(newJonas);
+// // New way
+// const newJonas = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+// console.log(newJonas);
+
+// console.log(`String
+// multiple
+// lines`);
+
+const age = 15;
+
+if (age >= 18) {
+    console.log(`Sarah can start driving!🚗`);
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+}
